@@ -19,7 +19,7 @@ import useDocumentTitle from '../../CustomHooks/useDocumentTitle';
 
 // eslint-disable-next-line react/prop-types
 const CoursesList = () => {
-  useDocumentTitle('Coursera | Search');
+  useDocumentTitle('coursera | Search');
 
   const classes = useStyles();
   const { query } = useParams();
@@ -46,7 +46,7 @@ const CoursesList = () => {
 
   const getData = (variables) => {
     axios
-      .post('http://localhost:5000/course/getCourses', variables)
+      .post('http://localhost:3000/course/getCourses', variables)
       .then((res) => {
         // console.log(res.data);
         setData(res.data.data);
@@ -72,7 +72,7 @@ const CoursesList = () => {
 
   const handleClick = (id) => {
     axios
-      .get(`http://localhost:5000/course/${id}`)
+      .get(`http://localhost:3000/course/${id}`)
       .then((res) => {
         const { category, course_name } = res.data.data;
         // console.log(category, course_name);

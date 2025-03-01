@@ -12,7 +12,7 @@ import CourseBox from './CourseBox';
 const Container = styled.div`
   & .MuiButtonBase-root {
     position: fixed;
-    background-color: #0056d2;
+    background-color: #ef4444;
     right: 3%;
     top: 90%;
     box-shadow: 2px 2px 10px #39393a;

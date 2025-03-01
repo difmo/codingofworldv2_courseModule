@@ -47,7 +47,7 @@ const SignupPage = () => {
 
   const handleSignup = () => {
     axios
-      .post('http://localhost:5000/user/signup', formdata)
+      .post('http://localhost:3000/user/signup', formdata)
       .then((res) => console.log(res))
       .catch((err) => console.error(err));
 

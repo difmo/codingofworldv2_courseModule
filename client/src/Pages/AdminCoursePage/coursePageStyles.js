@@ -17,7 +17,7 @@ export default makeStyles(() => ({
     marginTop: '50px',
   },
   btn: {
-    background: '#0056D2',
+    background: '#ef4444',
   },
   videoGrid: {
     marginTop: '20px',

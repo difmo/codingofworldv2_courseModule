@@ -29,7 +29,7 @@ export const addVideoToCourse = (payload) => (dispatch) => {
   const { course_id } = payload;
 
   return axios
-    .post(`http://localhost:5000/video/${course_id}/addvideo`, payload)
+    .post(`http://localhost:3000/video/${course_id}/addvideo`, payload)
     .then((res) => {
       dispatch(addVideoSuccess());
       console.log(res);

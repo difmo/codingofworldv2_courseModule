@@ -240,7 +240,7 @@ const Navbar = () => {
                         variant="contained"
                         style={{
                           width: '100%',
-                          background: '#0056D2',
+                          background: '#ef4444',
                           color: 'white',
                         }}
                         size="large"
@@ -300,8 +300,8 @@ const Navbar = () => {
                         marginTop: '15px',
                       }}
                     >
-                      New to Coursera?&nbsp;
-                      <span style={{ color: '#0056D2' }}>Sign Up</span>
+                      New to Coding of?&nbsp;
+                      <span style={{ color: '#ef4444' }}>Sign Up</span>
                     </Container>
                   </Box>
                 </Container>
@@ -385,7 +385,11 @@ const Navbar = () => {
             visibility="visible"
           >
             <Link to="/">
-              <img src="/logo.svg" width="120" alt="logo" />
+              <div style={{display:"flex"}}>
+
+                <img src="/logo.svg" width="60" alt="logo" />
+                <h3>Coding of world</h3>
+              </div>
             </Link>
           </Box>
 
@@ -456,7 +460,7 @@ const Navbar = () => {
             </div>
             {!isAuth && (
               <Button
-                style={{ backgroundColor: '#0056D2' }}
+                style={{ backgroundColor: '#ef4444' }}
                 variant="contained"
                 color="primary"
                 onClick={handleJoin}

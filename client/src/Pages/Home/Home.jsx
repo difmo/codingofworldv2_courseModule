@@ -12,7 +12,7 @@ import {
 import useDocumentTitle from '../../CustomHooks/useDocumentTitle';
 
 const Home = () => {
-  useDocumentTitle(`Coursera`);
+  useDocumentTitle(`coursera`);
 
   return (
     <div>

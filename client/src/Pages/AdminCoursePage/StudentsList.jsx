@@ -16,7 +16,7 @@ export const StudentsList = () => {
   const classes = useStyles();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/user/usersByCourse/${id}`).then((res) => {
+    axios.get(`http://localhost:3000/user/usersByCourse/${id}`).then((res) => {
       setStudents(res.data.data);
     });
   }, []);

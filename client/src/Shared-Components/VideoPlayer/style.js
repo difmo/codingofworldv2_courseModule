@@ -47,6 +47,6 @@ export default makeStyles(() => ({
     width: 100,
   },
   bookmarkBtn: {
-    background: '#0056D2',
+    background: '#ef4444',
   },
 }));

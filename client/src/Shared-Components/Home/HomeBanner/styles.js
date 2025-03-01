@@ -41,7 +41,7 @@ export default makeStyles((theme) => ({
     color: 'rgb(31,31,31)',
   },
   heroBtn: {
-    background: '#0056D2',
+    background: '#ef4444',
     color: '#ffff',
     fontSize: '17px',
     fontWeight: '700',

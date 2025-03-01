@@ -21,7 +21,7 @@ const ModalBox = styled.div`
 const CourseBanner = ({ course }) => {
   const classes = useStyles();
   const color2 = '#021B79';
-  const color3 = '#0056D2';
+  const color3 = '#ef4444';
   const rating = (Math.random() * (5 - 3.5) + 3.5).toFixed(1);
 
   const activeUser = useSelector((state) => state.auth.user);

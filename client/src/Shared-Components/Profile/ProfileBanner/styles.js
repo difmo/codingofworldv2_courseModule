@@ -21,7 +21,7 @@ export default makeStyles((theme) => ({
     height: theme.spacing(5),
   },
   updateIcon: {
-    color: '#0056D2',
+    color: '#ef4444',
   },
   avatar: {
     background: '#55c1e6',

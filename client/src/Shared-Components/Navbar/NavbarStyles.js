@@ -16,7 +16,7 @@ export default makeStyles((theme) => ({
     fontFamily: 'Georgia,serif',
     fontWeight: 'bolder',
     fontSize: '1.4em',
-    color: '#0056D2',
+    color: '#ef4444',
     marginRight: theme.spacing(2),
     [theme.breakpoints.up('xs')]: {
       display: 'block',
@@ -120,7 +120,7 @@ export default makeStyles((theme) => ({
     fontSize: '15px',
     marginTop: '8px',
     textAlign: 'left',
-    color: '#0056D2',
+    color: '#ef4444',
   },
   logo: {
     height: '24px',
@@ -142,7 +142,7 @@ export default makeStyles((theme) => ({
     color: 'red',
   },
   exploreBtn: {
-    background: '#0056D2',
+    background: '#ef4444',
     fontSize: '14px',
   },
 }));

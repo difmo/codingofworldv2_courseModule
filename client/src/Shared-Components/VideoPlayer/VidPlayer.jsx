@@ -52,7 +52,7 @@ export const VidPlayer = () => {
 
   React.useEffect(() => {
     axios
-      .get(`http://localhost:5000/snapshot/get/${user._id}/${videoId}`)
+      .get(`http://localhost:3000/snapshot/get/${user._id}/${videoId}`)
       .then((res) => setBookmarks(res.data.data));
   }, [videoId]);
 
@@ -182,7 +182,7 @@ export const VidPlayer = () => {
     };
 
     axios
-      .post('http://localhost:5000/snapshot/add', obj)
+      .post('http://localhost:3000/snapshot/add', obj)
       .then((res) => setBookmarks([...bookmarks, res.data.data]));
   };
 

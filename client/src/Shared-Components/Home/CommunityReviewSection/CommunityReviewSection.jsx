@@ -24,8 +24,8 @@ const CommunityGrid = styled.div`
 const CommunityReviewSection = () => {
   return (
     <CommunityGrid>
-      <h2 className="title">From the Coursera community</h2>
-      <p>77+ million people are already learning on Coursera</p>
+      <h2 className="title">From the coursera community</h2>
+      <p>77+ million people are already learning on coursera</p>
       <ReviewCarousal />
     </CommunityGrid>
   );

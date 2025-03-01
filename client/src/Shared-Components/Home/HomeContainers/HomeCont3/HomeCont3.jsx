@@ -29,7 +29,7 @@ export const HomeCont3 = () => {
           </Box>
           <Box className={classes.textCont3}>
             <span className={classes.spanText}>
-              <strong>- Coursera Learner Outcome Survey, India (2021)</strong>
+              <strong>- coursera Learner Outcome Survey, India (2021)</strong>
             </span>
             <Box className={classes.BtnCont}>
               <Button variant="contained" size="large" className={classes.btn1}>

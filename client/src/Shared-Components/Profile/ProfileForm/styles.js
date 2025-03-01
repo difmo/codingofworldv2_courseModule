@@ -15,7 +15,7 @@ export default makeStyles((theme) => ({
     color: '#333',
   },
   button: {
-    background: '#0056D2',
+    background: '#ef4444',
     padding: 17,
     width: '150px',
     fontWeight: 700,
@@ -66,7 +66,7 @@ export default makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   photoBtn: {
-    background: '#0056D2',
+    background: '#ef4444',
     fontWeight: 'bold',
     marginLeft: '15px',
     color: 'white',

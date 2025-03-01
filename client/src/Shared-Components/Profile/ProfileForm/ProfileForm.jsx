@@ -68,7 +68,7 @@ export const ProfileForm = () => {
 
           //patch req
           axios
-            .put(`http://localhost:5000/user/${user._id}`, {
+            .put(`http://localhost:3000/user/${user._id}`, {
               ...user,
               profile_picture: downloadURL,
             })
@@ -121,7 +121,7 @@ export const ProfileForm = () => {
               </Grid>
               <Grid item>
                 <p>
-                  Let the Coursera community of other learners and instructors
+                  Let the coursera community of other learners and instructors
                   recognize you.
                 </p>
               </Grid>

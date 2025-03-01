@@ -12,6 +12,7 @@
     "jest": true
   },
   "rules": {
+    "no-underscore-dangle": "off",
     "max-len": ["error", { "code": 100 }],
     "prefer-promise-reject-errors": ["off"],
     "react/jsx-filename-extension": ["off"],

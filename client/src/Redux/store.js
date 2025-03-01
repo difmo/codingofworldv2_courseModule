@@ -1,4 +1,3 @@
-/* eslint-disable no-underscore-dangle */
 import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
 import { courseReducer } from './Admin/Course/courseReducer';
 import { adminVideoReducer } from './Admin/Video/adminVideoReducer';
@@ -21,12 +20,16 @@ const customThunk = (store) => (next) => (action) => {
   return next(action);
 };
 
+/* eslint-disable no-underscore-dangle */
+const devTools = window.__REDUX_DEVTOOLS_EXTENSION__
+  ? window.__REDUX_DEVTOOLS_EXTENSION__()
+  : (f) => f; // Fallback if DevTools is not available
+/* eslint-enable no-underscore-dangle */
+
 export const store = createStore(
   rootReducer,
   compose(
     applyMiddleware(customThunk),
-
-    window.__REDUX_DEVTOOLS_EXTENSION__ &&
-      window.__REDUX_DEVTOOLS_EXTENSION__(),
-  ),
+    devTools
+  )
 );

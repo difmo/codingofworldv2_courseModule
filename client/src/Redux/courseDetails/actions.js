@@ -27,7 +27,7 @@ export const getCourseFailure = () => {
 export const fetchCourse = (category, courseName) => (dispatch) => {
   dispatch(getCourseReq());
   return axios
-    .get(`http://localhost:5000/course/${category}/${courseName}`)
+    .get(`http://localhost:3000/course/${category}/${courseName}`)
     .then((res) => {
       dispatch(getCourseSuccess(res.data.data[0]));
     })

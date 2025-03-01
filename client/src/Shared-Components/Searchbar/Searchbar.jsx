@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     color: 'white',
   },
   iconBtnDiv: {
-    background: '#0056D2',
+    background: '#ef4444',
     borderRadius: '0px 4px 4px 0px',
   },
 }));
@@ -56,7 +56,7 @@ function Searchbar() {
 
   React.useEffect(() => {
     axios
-      .get('http://localhost:5000/course/all')
+      .get('http://localhost:3000/course/all')
       .then((res) => setCourses(res.data.data))
       .catch((err) => console.log('Error Occured', err));
   }, []);

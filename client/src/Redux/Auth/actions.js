@@ -79,7 +79,7 @@ export const enrollFailure = () => {
 export const enrollUser = (id, payload) => (dispatch) => {
   dispatch(enrollReq());
   return axios
-    .put(`http://localhost:5000/user/${id}`, payload)
+    .put(`http://localhost:3000/user/${id}`, payload)
     .then((res) => {
       setData('courseraUser', res.data.data);
       dispatch(enrollSuccess(res.data.data));
@@ -93,7 +93,7 @@ export const enrollUser = (id, payload) => (dispatch) => {
 export const signin = (data) => (dispatch) => {
   dispatch(signinReq());
   return axios
-    .post(`http://localhost:5000/user/login`, {
+    .post(`http://localhost:3000/user/login`, {
       username: data.username,
       password: data.password,
     })
@@ -112,7 +112,7 @@ export const signin = (data) => (dispatch) => {
 export const updateUser = (id, payload) => (dispatch) => {
   dispatch(updateUserRequest());
   return axios
-    .put(`http://localhost:5000/user/${id}`, payload)
+    .put(`http://localhost:3000/user/${id}`, payload)
     .then((res) => {
       setData('courseraUser', res.data.data);
       dispatch(updateUserSuccess(res.data.data));
