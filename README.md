@@ -1,6 +1,6 @@
-# Coursera Clone (MERN Stack)
+# coursera Clone (MERN Stack)
 
-Coursera is a ed-tech platform where anybody can browse for what they want to learn and can enroll and earn a skill for themselves. This Project is build as part of Masai School (30 weeks Bootcamp) Curriculum project and completed in duration of 2 weeks.
+coursera is a ed-tech platform where anybody can browse for what they want to learn and can enroll and earn a skill for themselves. This Project is build as part of Masai School (30 weeks Bootcamp) Curriculum project and completed in duration of 2 weeks.
 
 ## Demo
 
@@ -95,3 +95,4 @@ Inside Client & Server install with npm
 - [Albert Sebastian](https://github.com/albseb511)
 - [Dhaval Chheda](https://github.com/kiddodhaval)
 - [Prabhanjan](https://github.com/Sparkenstein)
+# codingofworldv2_courseModule
